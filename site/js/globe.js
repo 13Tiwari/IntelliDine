@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   const WORLD_IMAGE_URL = '//unpkg.com/three-globe/example/img/earth-dark.jpg';
-  const GEOJSON_PATH = 'js/updated_world.geojson';
+  const GEOJSON_PATH = 'site/js/updated_world.geojson';
   
   const world = Globe()(document.getElementById('globe'));
 
