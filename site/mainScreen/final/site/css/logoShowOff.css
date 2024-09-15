@@ -1,0 +1,49 @@
+.logoShowOff .space {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centers items along the cross-axis (horizontally) */
+    justify-content: center;
+}
+
+.logoShowOff .spaceSpecial {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centers items along the cross-axis (horizontally) */
+    justify-content: center;
+}
+
+.safeTravelInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+    font: 20px;
+    text-align: center;
+}
+
+.fact {
+    font-family: 'Orbitron';
+    font: 30px; 
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 100px 0; /* To add some space between the dots */
+}
+
+.logoShowOff .quote {
+    font-family: 'Orbitron';
+    font: 20px;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
