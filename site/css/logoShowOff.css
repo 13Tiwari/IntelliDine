@@ -1,0 +1,65 @@
+.logoShowOff .space {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centers items along the cross-axis (horizontally) */
+    justify-content: center;
+}
+
+.logoShowOff .spaceSpecial {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      /* Centers items along the cross-axis (horizontally) */
+    justify-content: center;
+}
+
+.safeTravelInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron';
+    font-size: 40px;
+    text-align: center;
+}
+
+.fact {
+    font-family: 'Orbitron';
+    font: 32px; 
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 100px 0; /* To add some space between the dots */
+}
+
+.logoShowOff .quote {
+    font-family: 'Orbitron';
+    font: 32px;
+}
+
+#imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.question {
+    font-family: 'Orbitron';
+    font: 32px;
+}
+
+.logoShowOff .showOffLogo {
+    transition: transform 0.1s;
+    will-change: transform;
+    width: 30%; /* initial width */
+    max-width: 2000px; /* maximum size */
+}
+
+.showOff {
+    margin: 200px;
+}
